@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "wooltweaks",
-  "version": "3.2",
+  "version": "3.3",
 
   "name": "Wool Tweaks",
   "description": "Dye beds, wool blocks and beds with a right-click in the world. Adds wool to string recipe for all wool blocks and allows players to dye any colour wool block with any dye.",
   "authors": [ "Rick South" ],
   "contact": {
-    "homepage": "https://curseforge.com/minecraft/mc-mods/wool-tweaks",
-    "sources": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Wool%20Tweaks",
-    "issues": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Wool%20Tweaks"
+    "homepage": "https://serilum.com/mod/wool-tweaks",
+    "sources": "https://github.com/Serilum/Wool-Tweaks",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Wool%20Tweaks"
   },
 
   "license": "All Right Reserved",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.13"
+    "collective": ">=7.21"
   },
 
   "custom": {
