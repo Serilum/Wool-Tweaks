@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="wooltweaks"
-version="3.4"
+version="3.5"
 displayName="Wool Tweaks"
 displayURL="https://serilum.com/mod/wool-tweaks"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.wooltweaks]]
     modId="collective"
     mandatory=true
-    versionRange="[7.54,)"
+    versionRange="[7.57,)"
     ordering="NONE"
     side="BOTH"
 

@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "minecraft:black_carpet",
+    "id": "minecraft:black_carpet",
     "count": 8
   }
 }
