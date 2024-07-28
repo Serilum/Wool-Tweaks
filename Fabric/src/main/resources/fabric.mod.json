@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "wooltweaks",
-  "version": "3.5",
+  "version": "3.7",
 
   "name": "Wool Tweaks",
   "description": "Dye beds, wool blocks and beds with a right-click in the world. Adds wool to string recipe for all wool blocks and allows players to dye any colour wool block with any dye.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.57"
+    "collective": ">=7.78"
   },
 
   "custom": {
@@ -44,12 +44,9 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jack",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
