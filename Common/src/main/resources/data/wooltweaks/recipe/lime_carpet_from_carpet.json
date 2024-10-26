@@ -7,12 +7,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "tag": "minecraft:wool_carpets"
-    },
-    "$": {
-      "item": "minecraft:lime_dye"
-    }
+    "#": "#minecraft:wool_carpets",
+    "$": "minecraft:lime_dye"
   },
   "result": {
     "id": "minecraft:lime_carpet",
