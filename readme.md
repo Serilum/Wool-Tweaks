@@ -12,17 +12,17 @@
 <p style="text-align:center"><a href="https://curseforge.com/members/serilum/projects" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/curseforge.svg" width="200"></a> <a href="https://modrinth.com/user/Serilum" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/modrinth.svg" width="200"></a> <a href="https://patreon.com/serilum" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/patreon.svg" width="200"></a> <a href="https://youtube.com/@serilum" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/youtube.svg" width="200"></a></p>
 <p><strong><span style="font-size:24px">Requires the library mod <a style="font-size:24px" href="https://curseforge.com/minecraft/mc-mods/collective" target="_blank" rel="nofollow">Collective</a>.</span></strong><br><br><strong>&nbsp;&nbsp;&nbsp;This mod is part of <span style="color:#008000"><a style="color:#008000" href="https://curseforge.com/minecraft/modpacks/the-vanilla-experience" target="_blank" rel="nofollow">The Vanilla Experience</a></span> modpack and <span style="color:#bf8f6f"><a style="color:#bf8f6f" href="https://curseforge.com/minecraft/mc-mods/serilums-qol-bundle" target="_blank" rel="nofollow">Serilum's Quality of Life Bundle</a></span> mod.</strong><br><span style="font-size:18px">Wool Tweaks makes various changes to the dyeing of wool, beds and carpets. Any colour can be dyed in the crafting grid, not just the white variant. It's also possible to right-click the placed blocks with a dye in hand and it will change the colour. A recipe to convert any colour wool to 4 string is included.<br></span></p>
 <p><br><span style="font-size:18px"><strong>Convert any wool block in the world by right-clicking it with a dye in hand:</strong></span></p>
-<div class="spoiler">
+<details><summary>Show Spoiler</summary>
 <p><picture><img src="https://cdn.serilum.com/projects/wool-tweaks/a.webp" width="1000" height="562"></picture></p>
-</div>
+</details>
 <p>&nbsp;<br><span style="font-size:18px"><strong>Convert any bed block in the world by right-clicking it with a dye in hand:</strong></span></p>
-<div class="spoiler">
+<details><summary>Show Spoiler</summary>
 <p><picture><img src="https://cdn.serilum.com/projects/wool-tweaks/b.webp" width="1000" height="560"></picture></p>
-</div>
+</details>
 <p>&nbsp;<br><span style="font-size:18px"><strong>Convert any carpet block in the world by right-clicking it with a dye in hand:</strong></span></p>
-<div class="spoiler">
+<details><summary>Show Spoiler</summary>
 <p><picture><img src="https://cdn.serilum.com/projects/wool-tweaks/c.webp" width="1000" height="562"></picture></p>
-</div>
+</details>
 <p>&nbsp;</p>
 <p>&nbsp;<br><span style="font-size:24px"><strong>Craft any wool block to 4 string:</strong></span><br><picture><img src="https://cdn.serilum.com/projects/wool-tweaks/d.png" width="969" height="543"></picture><br><picture><img src="https://cdn.serilum.com/projects/wool-tweaks/e.png" width="969" height="543"></picture><br><br><span style="font-size:24px"><strong>Dye any wool block colour:</strong></span><br><picture><img src="https://cdn.serilum.com/projects/wool-tweaks/f.png" width="969" height="543"></picture><br><picture><img src="https://cdn.serilum.com/projects/wool-tweaks/g.png" width="969" height="543"></picture><br><br><span style="font-size:24px"><strong>Dye any bed colour:</strong></span><br><picture><img src="https://cdn.serilum.com/projects/wool-tweaks/h.png" width="969" height="543"></picture><br><br><span style="font-size:24px"><strong>Dye any carpets:</strong></span><br><picture><img src="https://cdn.serilum.com/projects/wool-tweaks/i.png" width="969" height="543"></picture><br><picture><img src="https://cdn.serilum.com/projects/wool-tweaks/j.png" width="969" height="543"></picture></p>
 <p><br>------------------<br><br><span style="font-size:24px"><strong>You may freely use this mod in any modpack, as long as the download remains hosted within the CurseForge or Modrinth ecosystem.</strong></span><br><br><span style="font-size:18px"><a style="font-size:18px;color:#008000" href="https://serilum.com/" rel="nofollow">Serilum.com</a> contains an overview and more information on all mods available.</span><br><br><span style="font-size:14px">Comments are disabled as I'm unable to keep track of all the separate pages on each mod.</span><span style="font-size:14px"><br>For issues, ideas, suggestions or anything else there is the&nbsp;<a style="font-size:14px;color:#008000" href="https://github.com/Serilum/.issue-tracker" rel="nofollow">Github repo</a>. Thanks!</span><span style="font-size:6px"><br><br></span></p>
