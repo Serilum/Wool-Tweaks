@@ -1,67 +1,67 @@
 package com.natamus.wooltweaks.util;
 
-import java.util.HashMap;
-
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 
-public class Util {	
-	public static HashMap<Item, Block> woolblocks = new HashMap<Item, Block>();
-	public static HashMap<Item, Block> bedblocks = new HashMap<Item, Block>();
-	public static HashMap<Item, Block> carpetblocks = new HashMap<Item, Block>();
-	
-	public static void initiateColourMaps() {
-		woolblocks.put(Items.BLACK_DYE, Blocks.BLACK_WOOL);
-		woolblocks.put(Items.BLUE_DYE, Blocks.BLUE_WOOL);
-		woolblocks.put(Items.BROWN_DYE, Blocks.BROWN_WOOL);
-		woolblocks.put(Items.CYAN_DYE, Blocks.CYAN_WOOL);
-		woolblocks.put(Items.GRAY_DYE, Blocks.GRAY_WOOL);
-		woolblocks.put(Items.GREEN_DYE, Blocks.GREEN_WOOL);
-		woolblocks.put(Items.LIGHT_BLUE_DYE, Blocks.LIGHT_BLUE_WOOL);
-		woolblocks.put(Items.LIGHT_GRAY_DYE, Blocks.LIGHT_GRAY_WOOL);
-		woolblocks.put(Items.LIME_DYE, Blocks.LIME_WOOL);
-		woolblocks.put(Items.MAGENTA_DYE, Blocks.MAGENTA_WOOL);
-		woolblocks.put(Items.ORANGE_DYE, Blocks.ORANGE_WOOL);
-		woolblocks.put(Items.PINK_DYE, Blocks.PINK_WOOL);
-		woolblocks.put(Items.PURPLE_DYE, Blocks.PURPLE_WOOL);
-		woolblocks.put(Items.RED_DYE, Blocks.RED_WOOL);
-		woolblocks.put(Items.YELLOW_DYE, Blocks.YELLOW_WOOL);
-		woolblocks.put(Items.WHITE_DYE, Blocks.WHITE_WOOL);
+import java.util.HashMap;
 
-		bedblocks.put(Items.BLACK_DYE, Blocks.BLACK_BED);
-		bedblocks.put(Items.BLUE_DYE, Blocks.BLUE_BED);
-		bedblocks.put(Items.BROWN_DYE, Blocks.BROWN_BED);
-		bedblocks.put(Items.CYAN_DYE, Blocks.CYAN_BED);
-		bedblocks.put(Items.GRAY_DYE, Blocks.GRAY_BED);
-		bedblocks.put(Items.GREEN_DYE, Blocks.GREEN_BED);
-		bedblocks.put(Items.LIGHT_BLUE_DYE, Blocks.LIGHT_BLUE_BED);
-		bedblocks.put(Items.LIGHT_GRAY_DYE, Blocks.LIGHT_GRAY_BED);
-		bedblocks.put(Items.LIME_DYE, Blocks.LIME_BED);
-		bedblocks.put(Items.MAGENTA_DYE, Blocks.MAGENTA_BED);
-		bedblocks.put(Items.ORANGE_DYE, Blocks.ORANGE_BED);
-		bedblocks.put(Items.PINK_DYE, Blocks.PINK_BED);
-		bedblocks.put(Items.PURPLE_DYE, Blocks.PURPLE_BED);
-		bedblocks.put(Items.RED_DYE, Blocks.RED_BED);
-		bedblocks.put(Items.YELLOW_DYE, Blocks.YELLOW_BED);
-		bedblocks.put(Items.WHITE_DYE, Blocks.WHITE_BED);
+public class Util {
+    public static HashMap<Item, Block> woolblocks = new HashMap<>();
+    public static HashMap<Item, Block> bedblocks = new HashMap<>();
+    public static HashMap<Item, Block> carpetblocks = new HashMap<>();
 
-		carpetblocks.put(Items.BLACK_DYE, Blocks.BLACK_CARPET);
-		carpetblocks.put(Items.BLUE_DYE, Blocks.BLUE_CARPET);
-		carpetblocks.put(Items.BROWN_DYE, Blocks.BROWN_CARPET);
-		carpetblocks.put(Items.CYAN_DYE, Blocks.CYAN_CARPET);
-		carpetblocks.put(Items.GRAY_DYE, Blocks.GRAY_CARPET);
-		carpetblocks.put(Items.GREEN_DYE, Blocks.GREEN_CARPET);
-		carpetblocks.put(Items.LIGHT_BLUE_DYE, Blocks.LIGHT_BLUE_CARPET);
-		carpetblocks.put(Items.LIGHT_GRAY_DYE, Blocks.LIGHT_GRAY_CARPET);
-		carpetblocks.put(Items.LIME_DYE, Blocks.LIME_CARPET);
-		carpetblocks.put(Items.MAGENTA_DYE, Blocks.MAGENTA_CARPET);
-		carpetblocks.put(Items.ORANGE_DYE, Blocks.ORANGE_CARPET);
-		carpetblocks.put(Items.PINK_DYE, Blocks.PINK_CARPET);
-		carpetblocks.put(Items.PURPLE_DYE, Blocks.PURPLE_CARPET);
-		carpetblocks.put(Items.RED_DYE, Blocks.RED_CARPET);
-		carpetblocks.put(Items.YELLOW_DYE, Blocks.YELLOW_CARPET);
-		carpetblocks.put(Items.WHITE_DYE, Blocks.WHITE_CARPET);
-	}
+    public static void initiateColourMaps() {
+       woolblocks.put(Items.DYE.black(), Blocks.WOOL.black());
+       woolblocks.put(Items.DYE.blue(), Blocks.WOOL.blue());
+       woolblocks.put(Items.DYE.brown(), Blocks.WOOL.brown());
+       woolblocks.put(Items.DYE.cyan(), Blocks.WOOL.cyan());
+       woolblocks.put(Items.DYE.gray(), Blocks.WOOL.gray());
+       woolblocks.put(Items.DYE.green(), Blocks.WOOL.green());
+       woolblocks.put(Items.DYE.lightBlue(), Blocks.WOOL.lightBlue());
+       woolblocks.put(Items.DYE.lightGray(), Blocks.WOOL.lightGray());
+       woolblocks.put(Items.DYE.lime(), Blocks.WOOL.lime());
+       woolblocks.put(Items.DYE.magenta(), Blocks.WOOL.magenta());
+       woolblocks.put(Items.DYE.orange(), Blocks.WOOL.orange());
+       woolblocks.put(Items.DYE.pink(), Blocks.WOOL.pink());
+       woolblocks.put(Items.DYE.purple(), Blocks.WOOL.purple());
+       woolblocks.put(Items.DYE.red(), Blocks.WOOL.red());
+       woolblocks.put(Items.DYE.yellow(), Blocks.WOOL.yellow());
+       woolblocks.put(Items.DYE.white(), Blocks.WOOL.white());
+
+       bedblocks.put(Items.DYE.black(), Blocks.BED.black());
+       bedblocks.put(Items.DYE.blue(), Blocks.BED.blue());
+       bedblocks.put(Items.DYE.brown(), Blocks.BED.brown());
+       bedblocks.put(Items.DYE.cyan(), Blocks.BED.cyan());
+       bedblocks.put(Items.DYE.gray(), Blocks.BED.gray());
+       bedblocks.put(Items.DYE.green(), Blocks.BED.green());
+       bedblocks.put(Items.DYE.lightBlue(), Blocks.BED.lightBlue());
+       bedblocks.put(Items.DYE.lightGray(), Blocks.BED.lightGray());
+       bedblocks.put(Items.DYE.lime(), Blocks.BED.lime());
+       bedblocks.put(Items.DYE.magenta(), Blocks.BED.magenta());
+       bedblocks.put(Items.DYE.orange(), Blocks.BED.orange());
+       bedblocks.put(Items.DYE.pink(), Blocks.BED.pink());
+       bedblocks.put(Items.DYE.purple(), Blocks.BED.purple());
+       bedblocks.put(Items.DYE.red(), Blocks.BED.red());
+       bedblocks.put(Items.DYE.yellow(), Blocks.BED.yellow());
+       bedblocks.put(Items.DYE.white(), Blocks.BED.white());
+
+       carpetblocks.put(Items.DYE.black(), Blocks.CARPET.black());
+       carpetblocks.put(Items.DYE.blue(), Blocks.CARPET.blue());
+       carpetblocks.put(Items.DYE.brown(), Blocks.CARPET.brown());
+       carpetblocks.put(Items.DYE.cyan(), Blocks.CARPET.cyan());
+       carpetblocks.put(Items.DYE.gray(), Blocks.CARPET.gray());
+       carpetblocks.put(Items.DYE.green(), Blocks.CARPET.green());
+       carpetblocks.put(Items.DYE.lightBlue(), Blocks.CARPET.lightBlue());
+       carpetblocks.put(Items.DYE.lightGray(), Blocks.CARPET.lightGray());
+       carpetblocks.put(Items.DYE.lime(), Blocks.CARPET.lime());
+       carpetblocks.put(Items.DYE.magenta(), Blocks.CARPET.magenta());
+       carpetblocks.put(Items.DYE.orange(), Blocks.CARPET.orange());
+       carpetblocks.put(Items.DYE.pink(), Blocks.CARPET.pink());
+       carpetblocks.put(Items.DYE.purple(), Blocks.CARPET.purple());
+       carpetblocks.put(Items.DYE.red(), Blocks.CARPET.red());
+       carpetblocks.put(Items.DYE.yellow(), Blocks.CARPET.yellow());
+       carpetblocks.put(Items.DYE.white(), Blocks.CARPET.white());
+    }
 }
