@@ -6,6 +6,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.component.SwingAnimation;
 import net.minecraft.world.item.DyeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -82,7 +83,7 @@ public class WoolClickEvent {
 		}
 
 		world.setBlockAndUpdate(target, newstate);
-		player.swing(hand);
+		player.swingAndResetAttackStrength(hand, SwingAnimation.DEFAULT, false);
 
 		if (!player.isCreative()) {
 			handstack.shrink(1);
