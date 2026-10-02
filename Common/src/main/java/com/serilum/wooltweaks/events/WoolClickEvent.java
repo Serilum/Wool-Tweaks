@@ -1,6 +1,6 @@
-package com.natamus.wooltweaks.events;
+package com.serilum.wooltweaks.events;
 
-import com.natamus.wooltweaks.util.Util;
+import com.serilum.wooltweaks.util.Util;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.BlockTags;
