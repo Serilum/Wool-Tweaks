@@ -1,9 +1,9 @@
-package com.natamus.wooltweaks;
+package com.serilum.wooltweaks;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.wooltweaks.forge.events.ForgeWoolClickEvent;
-import com.natamus.wooltweaks.util.Reference;
+import com.serilum.wooltweaks.forge.events.ForgeWoolClickEvent;
+import com.serilum.wooltweaks.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -28,7 +28,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeWoolClickEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeWoolClickEvent.class);
 	}
 
 	private static void setGlobalConstants() {

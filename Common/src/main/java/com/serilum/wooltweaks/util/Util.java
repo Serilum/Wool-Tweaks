@@ -1,4 +1,4 @@
-package com.natamus.wooltweaks.util;
+package com.serilum.wooltweaks.util;
 
 import java.util.HashMap;
 
