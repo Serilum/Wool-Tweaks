@@ -1,7 +1,7 @@
-package com.natamus.wooltweaks;
+package com.serilum.wooltweaks;
 
 
-import com.natamus.wooltweaks.util.Util;
+import com.serilum.wooltweaks.util.Util;
 
 public class ModCommon {
 
@@ -10,6 +10,6 @@ public class ModCommon {
 	}
 
 	private static void load() {
-    	Util.initiateColourMaps();
+		Util.initiateColourMaps();
 	}
 }
