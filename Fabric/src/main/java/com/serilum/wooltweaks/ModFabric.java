@@ -1,10 +1,10 @@
-package com.natamus.wooltweaks;
+package com.serilum.wooltweaks;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveBlockEvents;
-import com.natamus.wooltweaks.events.WoolClickEvent;
-import com.natamus.wooltweaks.util.Reference;
+import com.serilum.wooltweaks.events.WoolClickEvent;
+import com.serilum.wooltweaks.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {

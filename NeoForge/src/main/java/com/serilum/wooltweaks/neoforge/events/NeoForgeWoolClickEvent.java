@@ -1,6 +1,6 @@
-package com.natamus.wooltweaks.neoforge.events;
+package com.serilum.wooltweaks.neoforge.events;
 
-import com.natamus.wooltweaks.events.WoolClickEvent;
+import com.serilum.wooltweaks.events.WoolClickEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 
